@@ -11,6 +11,7 @@ body{
 .navbar{
     display: flex;
     justify-content: space-between;
+    height: 80px;
     padding: 20px 30px;
     box-shadow:0px 5px 10px rgba(172, 2, 2, 0.223) ;
     /* box-shadow: ; */
@@ -30,7 +31,7 @@ body{
     margin-left: 7px;
 }
 .navList p{
-   font-size: 18px; 
+   font-size: 15px; 
 }
 .navList{
     display: flex;
@@ -39,11 +40,14 @@ body{
     gap: 30px;
 }
 .getStarted{
-    background-color:red;
+    background-color: #E03131;
     color: white;
-    padding: 15px 20px;
-    border-radius:20px;
+    padding: 10px 30px;
+    border-radius:30px;
+    font-size: 18px;
     border: none;
     font-weight: 600;
-    
+}
+.getStarted:hover{
+    border: solid 2px white;
 }
