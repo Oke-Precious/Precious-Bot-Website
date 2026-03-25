@@ -1,1 +1,34 @@
-!
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    padding: 20px 30px;
+    background-color: #201313;
+    color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.botLogo{
+    display: flex;
+    justify-content: center;
+}
+.botLogo img{
+    width: 50px;
+}
+.botLogo p{
+    font-family: "Changa One", sans-serif;
+    font-size: 27px;
+}
+.navList p i{
+    margin-left: 7px;
+}
+.navList{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
