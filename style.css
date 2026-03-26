@@ -126,3 +126,40 @@ body{
 .section2 video{
     width: 100%;
 }
+.section3{
+    padding: 40px;
+}
+.closknit{
+    width: 50%;
+}
+.closknit h2{
+    font-size: 40px;
+}
+.productBtn{
+    display: flex;
+    gap: 30px;
+}
+.productBtn p{
+    border: 2px solid #29D1B8;
+    color: #29D1B8;
+    padding: 6px 30px;
+    margin: 35px 0;
+    font-size: 16px;
+    border-radius:20px;
+}
+.closknit .closknitTxt{
+    font-size: 20px;
+    width: 80%;
+    margin: 10px 0 40px 0;
+
+}
+.readAbout{
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFE783; 
+    text-decoration:dotted;
+}
+.readAbout:hover{
+    color: #FFC726;
+    text-decoration: none;
+}
