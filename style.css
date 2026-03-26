@@ -51,9 +51,10 @@ body{
 .getStarted:hover{
     border: solid 2px white;
 }
-section{
+.section1{
     display: flex;
     padding: 40px;
+    margin-bottom: 50px;
     justify-content: space-between;
     align-items: center;
 }
@@ -108,4 +109,20 @@ section{
 .imgBox3{
     background-color: #2BBE8F;
     background-image: url(./Media/special.png);
+}
+
+.sec2Title{
+    padding:0 40px ;
+    font-size: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: left;
+}
+.section2{
+    background-color: #2E1D1C;
+    width: 100%;
+    padding: 20px;
+}
+.section2 video{
+    width: 100%;
 }
