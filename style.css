@@ -129,7 +129,9 @@ body{
 .section3{
     padding: 40px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
 .closknit{
     width: 50%;
@@ -149,8 +151,9 @@ body{
     font-size: 16px;
     border-radius:20px;
 }
-.closknit .closknitTxt{
+.closknitTxt{
     font-size: 20px;
+    line-height: 30px;
     width: 80%;
     margin: 10px 0 40px 0;
 
@@ -165,7 +168,32 @@ body{
     color: #FFC726;
     text-decoration: none;
 }
-.closknitsec2{
+.closknitsec2Txt{
     display: flex;
-    gap: 10px;
+    gap: 20px;
+}
+.closknitTxt2{
+    font-size: 22px;
+    line-height: 35px;
+    font-weight: 100;
+}
+.productMan{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.productMan h4{
+    font-size: 20px;
+}
+.productManimg{
+    width: 60px;
+    height: 60px;
+    background-image:url(./Media/mypic.png);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: center;
+    background-color:#C16948;
+    margin: 50px 0;
+    border-radius: 20px;
+    margin: 30px 0;
 }
