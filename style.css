@@ -366,3 +366,36 @@ body{
     border: solid 2px #382323fd ;
     margin: 30px 0;
 }
+
+.sec2{
+    display: flex;
+    padding: 40px;
+}
+.footerLogoarea{
+    width: 50%;
+}
+.footerListCon{
+    display: flex;
+    width: 50%;
+    gap: 150px;
+}
+.footerList li{
+    list-style-type: none;
+    font-size: 18px;
+    line-height: 25px;
+}
+.footerList li a{
+    color: white;
+}
+.footerlogocon{
+    display: flex;
+    gap: 20x;
+    align-items: center;
+}
+.footerlogocon img{
+    width: 90px;
+}
+.footerlogocon p{
+    font-size: 40px;
+    font-family: "Changa One", sans-serif;
+}
