@@ -278,6 +278,7 @@ body{
 .textContent{
     font-size: 21px;
     margin: 10px 0;
+    line-height: 30px;
     text-align: justify;
 }
 .andrew{
@@ -310,6 +311,9 @@ body{
     width: 67%;
     background-color:transparent;
     border:none;
+    color: white;
+    font-size: 16px;
+    padding:0 10px;
     border-bottom: solid 1px #7B6E68;
 }
 .emailSub button{
@@ -338,4 +342,7 @@ body{
 }
 .checkout p{
     text-decoration: underline;
+}
+.giantRobots{
+    margin-top: 100px;
 }
