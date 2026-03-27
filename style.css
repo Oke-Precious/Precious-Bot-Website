@@ -39,6 +39,10 @@ body{
 .navList p{
    font-size: 15px; 
 }
+.blogLink{
+    color: white;
+    text-decoration: none;
+}
 .navList{
     display: flex;
     align-items: center;
