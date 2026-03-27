@@ -360,4 +360,9 @@ body{
 
 .nextPrev1{
     text-decoration: none;
+    color: #FFC726 !important;
+}
+.secEnd{
+    border: solid 2px #382323fd ;
+    margin: 30px 0;
 }
