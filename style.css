@@ -3,15 +3,21 @@
     margin: 0;
     font-family: "Ubuntu", sans-serif;
     box-sizing: border-box;
+    /* border: solid white 1px; */
 }
 body{
     background-color: #201313;
     color: white;
+    position: absolute;
+    /* width: 100%; */
 }
 .navbar{
+    position: fixed;
     display: flex;
     justify-content: space-between;
     height: 80px;
+    width: 100%;
+    background-color: #201313a4;
     padding: 20px 40px;
     box-shadow:0px 5px 10px rgba(172, 2, 2, 0.223) ;
     /* box-shadow: ; */
@@ -207,4 +213,17 @@ body{
 .ourService{
     font-size: 20px;
     margin: 20px 0;
+}
+
+
+/* BLOG PAGE */
+.sec1{
+    display: flex;
+    align-items: center;
+}
+.blogSec1{
+    width: 50%;
+    height: 300px;
+    margin: 0 auto;
+    border: red solid 1px;
 }
