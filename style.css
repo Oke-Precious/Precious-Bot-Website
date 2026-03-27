@@ -241,6 +241,7 @@ body{
 }
 .allTopicBtn{
     display: flex;
+    margin: 20px 0;
     gap: 30px;
 }
 .allTopicBtn button{
@@ -261,4 +262,31 @@ body{
 }
 .allTopic a{
     color: black !important;
+}
+.moreTopics{
+    font-size: 20px;
+    color: white;
+    margin: 50px 0;
+}
+.strategicPro{
+    margin: 60px 0 20px 0;
+    font-size: 35px;
+}
+.textContent{
+    font-size: 21px;
+    margin: 10px 0;
+    text-align: justify;
+}
+.andrew{
+    font-size: 19px;
+    margin: 15px 0;
+}
+.andrew a{
+    color: #FFC726;
+    text-decoration: none;
+    font-weight: 600;
+}
+.andrew2 a{
+    color: white;
+    text-transform: uppercase;
 }
