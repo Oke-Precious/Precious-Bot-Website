@@ -3,13 +3,14 @@
     margin: 0;
     font-family: "Ubuntu", sans-serif;
     box-sizing: border-box;
-    /* border: solid white 1px; */
+    border: solid white 1px;
 }
 body{
     background-color: #201313;
     color: white;
+}
+.navContainer{
     position: absolute;
-    /* width: 100%; */
 }
 .navbar{
     position: fixed;
@@ -217,13 +218,20 @@ body{
 
 
 /* BLOG PAGE */
-.sec1{
-    display: flex;
-    align-items: center;
+ .sec1{
+    margin: auto;
+    width: 45%;
+    /* height: 50vh; */
+    margin-top:180px ;
+    /* background-color:green; */
 }
-.blogSec1{
-    width: 50%;
-    height: 300px;
-    margin: 0 auto;
-    border: red solid 1px;
+.sec1 h1{
+    font-size: 50px;
+}
+.writtenBy{
+    font-size: 28px;
+    margin: 30px 0;
+}
+.writtenBy a{
+    color: #FFC726;
 }
