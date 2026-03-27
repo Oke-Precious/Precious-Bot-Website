@@ -3,7 +3,7 @@
     margin: 0;
     font-family: "Ubuntu", sans-serif;
     box-sizing: border-box;
-    border: solid white 1px;
+    /* border: solid white 1px; */
 }
 body{
     background-color: #201313;
@@ -222,7 +222,7 @@ body{
     margin: auto;
     width: 45%;
     /* height: 50vh; */
-    margin-top:180px ;
+    padding-top:180px ;
     /* background-color:green; */
 }
 .sec1 h1{
@@ -234,4 +234,31 @@ body{
 }
 .writtenBy a{
     color: #FFC726;
+}
+.sec1 hr{
+    border:1px solid #7B6E68;
+    margin: 40px 0;
+}
+.allTopicBtn{
+    display: flex;
+    gap: 30px;
+}
+.allTopicBtn button{
+    padding:12px 20px;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 30px;
+    border: solid 1px #7B6E68;
+    background-color:transparent;
+    
+}
+.allTopicBtn button a{
+    color: white;
+    text-decoration: none;
+}
+.allTopic{
+    background-color: #FFC726 !important;
+}
+.allTopic a{
+    color: black !important;
 }
