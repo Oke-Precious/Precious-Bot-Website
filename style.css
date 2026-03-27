@@ -346,3 +346,18 @@ body{
 .giantRobots{
     margin-top: 100px;
 }
+.nextPrev{
+    margin: 50px 0;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.nextPrev a{
+    color: white;
+    font-size: 20px;
+    /* font-weight: 100; */
+}
+
+.nextPrev1{
+    text-decoration: none;
+}
