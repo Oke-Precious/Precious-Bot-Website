@@ -431,7 +431,11 @@ body{
 .footerList li{
     list-style-type: none;
     font-size: 18px;
-    line-height: 25px;
+    line-height: 30px;
+}
+.footerList li a:hover{
+    color: #FFC721;
+    text-decoration: none;
 }
 .footerList li a{
     color: white;
