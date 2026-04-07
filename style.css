@@ -318,9 +318,12 @@ body{
     margin: 15px 0;
 }
 .andrew a{
-    color: #FFC726;
+    color: #FFE7A3;
     text-decoration: none;
     font-weight: 600;
+}
+.andrew a:hover{
+    color: #FFC721;
 }
 .andrew2 a{
     color: white;
@@ -344,9 +347,14 @@ body{
     background-color:transparent;
     border:none;
     color: white;
-    font-size: 16px;
+    font-size: 18px;
     padding:0 10px;
     border-bottom: solid 1px #7B6E68;
+    outline: none;
+    transition: 0.2s;
+}
+.emailSub input:focus{
+    border-bottom: 3px solid red;
 }
 .emailSub button{
     color:white;
@@ -371,6 +379,13 @@ body{
     font-size: 18px;
     padding: 10px;
     text-decoration: none;
+}
+.checkout:hover{
+    color: #FFC721;
+}
+.checkout:hover .arrowGo {
+    transform: translateX(10px);
+    transition: .5s;
 }
 .checkout p{
     text-decoration: underline dotted;
