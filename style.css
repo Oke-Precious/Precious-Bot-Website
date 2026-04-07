@@ -38,6 +38,16 @@ body{
 }
 .navList p{
    font-size: 15px; 
+   transition: 0.2s;
+   cursor: pointer;
+}
+.navList p:hover{
+    color: #FFC726;
+    text-decoration: underline;
+}
+.navList a{
+    color: white;
+    text-decoration: none;
 }
 .blogLink{
     color: white;
@@ -236,6 +246,9 @@ body{
     margin: 30px 0;
 }
 .writtenBy a{
+    color: #E0CB8F;
+}
+.writtenBy a:hover{
     color: #FFC726;
 }
 .sec1 hr{
@@ -251,19 +264,25 @@ body{
     padding:12px 20px;
     font-weight: 600;
     font-size: 18px;
+    color: white;
     border-radius: 30px;
     border: solid 1px #7B6E68;
     background-color:transparent;
-    
+    transition: 0.2s;
 }
-.allTopicBtn button a{
+.allTopicBtn button:hover{
+    background-color: #FFE7A3;
+    color: #201313;
+}
+
+.allTopicBtn a{
     color: white;
     text-decoration: none;
 }
 .allTopic{
     background-color: #FFC726 !important;
 }
-.allTopic a{
+.allTopic{
     color: black !important;
 }
 .moreTopics{
