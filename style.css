@@ -291,6 +291,11 @@ body{
     margin: 50px 0;
     text-decoration: underline dotted;
     text-underline-offset: 3px;
+    transition: 0.3s;
+}
+.moreTopics:hover{
+    text-decoration: none;
+    color: #FFC721;
 }
 .strategicPro{
     color: white;
@@ -298,6 +303,9 @@ body{
     margin: 60px 0 20px 0;
     text-decoration: none;
     font-size: 35px;
+}
+.strategicPro:hover{
+    color: #FFC721;
 }
 .textContent{
     font-size: 21px;
